@@ -15,6 +15,12 @@
 		4434F650268CA803001A109A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4434F64E268CA803001A109A /* LaunchScreen.storyboard */; };
 		4434F65B268CA803001A109A /* TDDExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F65A268CA803001A109A /* TDDExTests.swift */; };
 		4434F666268CA803001A109A /* TDDExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F665268CA803001A109A /* TDDExUITests.swift */; };
+		4434F677268CB19A001A109A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F676268CB19A001A109A /* User.swift */; };
+		4434F678268CB19A001A109A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F676268CB19A001A109A /* User.swift */; };
+		4434F679268CB19A001A109A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F676268CB19A001A109A /* User.swift */; };
+		4434F682268CE537001A109A /* Vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F681268CE537001A109A /* Vc2.swift */; };
+		4434F683268CE537001A109A /* Vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F681268CE537001A109A /* Vc2.swift */; };
+		4434F684268CE537001A109A /* Vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4434F681268CE537001A109A /* Vc2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		4434F661268CA803001A109A /* TDDExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4434F665268CA803001A109A /* TDDExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDExUITests.swift; sourceTree = "<group>"; };
 		4434F667268CA803001A109A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4434F676268CB19A001A109A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4434F681268CE537001A109A /* Vc2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vc2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		4434F642268CA802001A109A /* TDDEx */ = {
 			isa = PBXGroup;
 			children = (
+				4434F67D268CB1A1001A109A /* Model */,
 				4434F643268CA802001A109A /* AppDelegate.swift */,
 				4434F645268CA802001A109A /* SceneDelegate.swift */,
 				4434F647268CA802001A109A /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				4434F64C268CA803001A109A /* Assets.xcassets */,
 				4434F64E268CA803001A109A /* LaunchScreen.storyboard */,
 				4434F651268CA803001A109A /* Info.plist */,
+				4434F681268CE537001A109A /* Vc2.swift */,
 			);
 			path = TDDEx;
 			sourceTree = "<group>";
@@ -126,6 +136,14 @@
 				4434F667268CA803001A109A /* Info.plist */,
 			);
 			path = TDDExUITests;
+			sourceTree = "<group>";
+		};
+		4434F67D268CB1A1001A109A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4434F676268CB19A001A109A /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4434F677268CB19A001A109A /* User.swift in Sources */,
+				4434F682268CE537001A109A /* Vc2.swift in Sources */,
 				4434F648268CA802001A109A /* ViewController.swift in Sources */,
 				4434F644268CA802001A109A /* AppDelegate.swift in Sources */,
 				4434F646268CA802001A109A /* SceneDelegate.swift in Sources */,
@@ -268,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4434F678268CB19A001A109A /* User.swift in Sources */,
 				4434F65B268CA803001A109A /* TDDExTests.swift in Sources */,
+				4434F683268CE537001A109A /* Vc2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4434F679268CB19A001A109A /* User.swift in Sources */,
 				4434F666268CA803001A109A /* TDDExUITests.swift in Sources */,
+				4434F684268CE537001A109A /* Vc2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

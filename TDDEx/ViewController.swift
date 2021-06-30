@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func clickMeAction(_ sender: Any) {
+        let vc2 = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Vc2") as! Vc2
+        self.present(vc2, animated: true, completion: nil)
+    }
+    
 }
 
